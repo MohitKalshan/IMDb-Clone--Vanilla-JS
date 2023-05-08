@@ -1,0 +1,63 @@
+/* Google Fonts - Poppins & Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: dodgerblue;
+    /* linear-gradient(90deg, dodgerblue,gold); */
+}
+/* Navbar styling */
+#site-title{
+    color:gold;
+}
+
+#search-bar{
+    margin-right: 10rem;
+} 
+#search{
+    width:45rem;
+}
+/* Navbar end */
+#show-favourites{
+    color: aliceblue;
+    /* background: ; */
+}
+#Suggestions-container{
+    padding: 3px;
+}
+#card-container{
+    display: flex;
+    width:100vw;
+    /* justify-content:flex-start; */
+    flex-wrap:wrap;
+    /* margin: 3px;
+    padding: 3px; */ 
+    /* border: 3px solid #fff; */
+}
+.search-list-item{
+    background: #fff;
+    padding: 3px;
+    margin: 8px;
+}
+.search-item{
+    font-family:Poppins;
+    padding: 3px;
+    color: black;
+    overflow: hidden;
+    word-wrap:break-word;
+    text-overflow:ellipsis;
+}
+.search-item img{
+    width: 280px;
+    height: 350px;
+}
+ h4{  
+    font-size: 1.2rem;
+  
+}
+ a { 
+    text-decoration: none; 
+}
