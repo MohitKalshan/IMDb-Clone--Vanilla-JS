@@ -23,6 +23,7 @@ async function fetchMoviesByID() {
   const url = `https://www.omdbapi.com/?apikey=e8e9899f&i=${movieID}`;
   const response = await fetch(url);
   const data = await response.json();
+  localStorage.setItem("movies" , JSON.stringify(data))
   // console.log(data);
   title.innerHTML = data.Title;
   year.innerHTML = data.Year;

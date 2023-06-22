@@ -11,7 +11,7 @@ body{
 }
 /* Navbar styling */
 #site-title{
-    color:gold;
+    color:gold !important;
 }
 
 #search-bar{
